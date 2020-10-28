@@ -36,7 +36,7 @@
                 android:textSize="20dp"
                 android:textColor="@color/white"
                 android:paddingLeft="5dp"
-                android:text="BUNKER 0: Costa sur Promanade West - Requiere tarjeta roja" />
+                android:text="BUNKER 0: Costa sur Promanade West; Requiere tarjeta roja" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -48,7 +48,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 1: Norte de la pista de kart - Código 97264138" />
+                android:text="BUNKER 1: Norte de Kart Racing Track; Código 97264138" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -60,7 +60,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 2: Norte del bunker 1 - Código 87624851" />
+                android:text="BUNKER 2: Norte del Bunker 1; Código 87624851" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -72,7 +72,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 3: Easter egg adentro del bunker 2" />
+                android:text="BUNKER 3: Adentro del Bunker 2; inactivo" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -84,7 +84,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 4: Sur de la represa - Requiere tarjeta roja" />
+                android:text="BUNKER 4: Sur de Dam; Requiere tarjeta roja" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -96,7 +96,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 5: Oeste de Crash Site - Requiere tarjeta roja" />
+                android:text="BUNKER 5: Oeste de Crash Site; Requiere tarjeta roja" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -108,7 +108,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 6: Entre Quarry y Lumber - Requiere tarjeta roja" />
+                android:text="BUNKER 6: Entre Quarry y Lumber; Requiere tarjeta roja" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -120,7 +120,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 7: Este de Tv Station" />
+                android:text="BUNKER 7: Este de Tv Station; inactivo" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -132,7 +132,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 8: Frente al bunker 7" />
+                android:text="BUNKER 8: Frente al bunker 7; inactivo" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -144,7 +144,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 9: Noreste de Prison - Requiere tarjeta roja" />
+                android:text="BUNKER 9: Noreste de Prison; Requiere tarjeta roja" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -156,7 +156,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 10: Sur de Tavorsk Park - Codigo 60274513" />
+                android:text="BUNKER 10: Sur de Tavorsk Park; Código 60274513" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
