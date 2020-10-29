@@ -43,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
-                    android:text="ESCOPETAS"
+                    android:text="FUSILES DE PRECISIÓN"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="20dp"
@@ -72,7 +72,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".ui.escopeta">
+            tools:context=".ui.FusilPrecision">
 
 
             <ScrollView
@@ -83,7 +83,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:columnCount="1"
-                    android:rowCount="6">
+                    android:rowCount="4">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
@@ -113,7 +113,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/model_680" />
+                                    android:src="@drawable/dragunov" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -134,7 +134,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="MODEL 680"
+                                    android:text="Dragunov"
                                     android:textColor="#3F51B5"
                                     android:textSize="20dp"
                                     android:textStyle="bold|italic"
@@ -144,7 +144,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:gravity="center_vertical"
-                                    android:text="Recarga: 6.1s \nADS: 350ms\nRPM: 80"
+                                    android:text="Recarga: 4s \nADS: 484ms\nRPM: 208"
                                     android:textAlignment="inherit"
                                     android:textSize="15dp"
                                     android:textStyle="bold" />
@@ -184,7 +184,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/r9_0" />
+                                    android:src="@drawable/hdr" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -205,7 +205,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="R9-0"
+                                    android:text="HDR"
                                     android:textColor="#3F51B5"
                                     android:textSize="20dp"
                                     android:textStyle="bold|italic"
@@ -215,7 +215,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:gravity="center_vertical"
-                                    android:text="Recarga: 7.2s \nADS: 334ms\nRPM: 280"
+                                    android:text="Recarga: 4.4s \nADS: 617ms\nRPM: 42"
                                     android:textAlignment="inherit"
                                     android:textSize="15dp"
                                     android:textStyle="bold" />
@@ -255,7 +255,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/a725" />
+                                    android:src="@drawable/ax_50" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -276,7 +276,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="725"
+                                    android:text="AX-50"
                                     android:textColor="#3F51B5"
                                     android:textSize="20dp"
                                     android:textStyle="bold|italic"
@@ -286,7 +286,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:gravity="center_vertical"
-                                    android:text="Recarga: 2.5s \nADS: 384ms\nRPM: 343"
+                                    android:text="Recarga: 4.1s \nADS: 617ms\nRPM: 48"
                                     android:textAlignment="inherit"
                                     android:textSize="15dp"
                                     android:textStyle="bold" />
@@ -326,7 +326,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/origin_12" />
+                                    android:src="@drawable/rytec_amr" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -347,7 +347,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Origin 12"
+                                    android:text="Rytec AMR"
                                     android:textColor="#3F51B5"
                                     android:textSize="20dp"
                                     android:textStyle="bold|italic"
@@ -357,7 +357,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:gravity="center_vertical"
-                                    android:text="Recarga: 3.1s \nADS: 333ms\nRPM: 269"
+                                    android:text="Recarga: 5.4s \nADS: 701ms\nRPM: 200"
                                     android:textAlignment="inherit"
                                     android:textSize="15dp"
                                     android:textStyle="bold" />
@@ -368,151 +368,6 @@
 
 
                     </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_row="4"
-                        android:layout_column="0"
-                        android:layout_columnWeight="1"
-                        android:layout_gravity="fill"
-                        android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical|center_horizontal"
-                            android:gravity="center"
-                            android:orientation="horizontal"
-                            android:weightSum="1">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical"
-                                android:weightSum="2">
-
-                                <ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:src="@drawable/vlk_rogue" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginHorizontal="30sp"
-                                android:orientation="vertical"
-                                android:weightSum="2" />
-
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical"
-                                android:weightSum="2">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center_vertical"
-                                    android:text="VLK Rogue"
-                                    android:textColor="#3F51B5"
-                                    android:textSize="20dp"
-                                    android:textStyle="bold|italic"
-                                    android:typeface="serif" />
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:gravity="center_vertical"
-                                    android:text="Recarga: 3.1s \nADS: 284ms\nRPM: 147"
-                                    android:textAlignment="inherit"
-                                    android:textSize="15dp"
-                                    android:textStyle="bold" />
-                            </LinearLayout>
-
-
-                        </LinearLayout>
-
-
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_row="5"
-                        android:layout_column="0"
-                        android:layout_columnWeight="1"
-                        android:layout_gravity="fill"
-                        android:layout_margin="8dp"
-                        app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical|center_horizontal"
-                            android:gravity="center"
-                            android:orientation="horizontal"
-                            android:weightSum="1">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical"
-                                android:weightSum="2">
-
-                                <ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:src="@drawable/jak_12" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginHorizontal="30sp"
-                                android:orientation="vertical"
-                                android:weightSum="2" />
-
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical"
-                                android:weightSum="2">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center_vertical"
-                                    android:text="JAK-12"
-                                    android:textColor="#3F51B5"
-                                    android:textSize="20dp"
-                                    android:textStyle="bold|italic"
-                                    android:typeface="serif" />
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:gravity="center_vertical"
-                                    android:text="Recarga: 3.1s \nADS: 384ms\nRPM: 284"
-                                    android:textAlignment="inherit"
-                                    android:textSize="15dp"
-                                    android:textStyle="bold" />
-                            </LinearLayout>
-
-
-                        </LinearLayout>
-
-
-                    </androidx.cardview.widget.CardView>
-
-
-
 
 
 
