@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import app.orangekraft.warzguia.R;
+
 public class escopeta extends AppCompatActivity {
 
     @Override

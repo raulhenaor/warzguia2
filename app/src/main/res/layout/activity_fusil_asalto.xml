@@ -65,8 +65,6 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
-
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
@@ -94,7 +92,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l7"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -166,7 +166,7 @@
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
                         app:cardElevation="8dp"
-                        android:id="@+id/cardc1l1"
+                        android:id="@+id/Cardc1l8"
                         >
 
                         <LinearLayout
@@ -238,7 +238,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l9"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -309,7 +311,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l10"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -380,7 +384,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l11"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -451,7 +457,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l12"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -514,6 +522,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/Cardc1l0"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_row="0"
@@ -593,7 +602,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l1"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -665,7 +676,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l2"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -736,7 +749,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l3"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -807,7 +822,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l4"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -878,7 +895,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l5"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -949,7 +968,9 @@
                         android:layout_gravity="fill"
                         android:layout_margin="8dp"
                         app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
+                        app:cardElevation="8dp"
+                        android:id="@+id/Cardc1l6"
+                        >
 
                         <LinearLayout
                             android:layout_width="wrap_content"
