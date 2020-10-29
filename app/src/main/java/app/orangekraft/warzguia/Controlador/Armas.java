@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 
 import app.orangekraft.warzguia.R;
 import app.orangekraft.warzguia.ui.FusilAsalto;
+import app.orangekraft.warzguia.ui.SubFusil;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,7 +20,7 @@ import app.orangekraft.warzguia.ui.FusilAsalto;
  * create an instance of this fragment.
  */
 public class Armas extends Fragment  implements View.OnClickListener{
-    CardView card1;
+    CardView card1, card2;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -81,6 +82,16 @@ public class Armas extends Fragment  implements View.OnClickListener{
             public void onClick(View v) {
                 Intent in = new Intent(getActivity(), FusilAsalto.class);
                 in.putExtra("some","some data");
+                startActivity(in);
+            }
+        });
+
+        card2 = (CardView) view.findViewById(R.id.catsubfusil);
+        card2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent in = new Intent(getActivity(), SubFusil.class);
+                in.putExtra("some", "some data");
                 startActivity(in);
             }
         });

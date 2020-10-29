@@ -146,7 +146,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.6s \nADS: 267ms\nRPM: 561"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -217,7 +217,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.9s \nADS: 234ms\nRPM: 882"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -288,7 +288,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.7s \nADS: 234ms\nRPM: 750"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -359,7 +359,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 1.6s \nADS: 284ms\nRPM: 645"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -430,7 +430,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.5s \nADS: 254ms\nRPM: 571"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -501,7 +501,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.4s \nADS: 197ms\nRPM: 900"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -572,7 +572,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.6s \nADS: 267ms\nRPM: 779"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -643,7 +643,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 3.5s \nADS: 275ms\nRPM: 500"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -715,7 +715,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.3s \nADS: 250ms\nRPM: 833"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -786,7 +786,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.8s \nADS: 317ms\nRPM: 1000"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -857,7 +857,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 3.3s \nADS: 367ms\nRPM: 435"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -928,7 +928,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.6s \nADS: 250ms\nRPM: 923"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -999,7 +999,7 @@
                                     android:gravity="center_vertical"
                                     android:text="Recarga: 2.6s \nADS: 317ms\nRPM: 600"
                                     android:textAlignment="inherit"
-                                    android:textSize="18dp"
+                                    android:textSize="15dp"
                                     android:textStyle="bold" />
                             </LinearLayout>
 

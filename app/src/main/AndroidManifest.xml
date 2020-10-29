@@ -13,6 +13,7 @@
         android:theme="@style/Theme.Warzguia">
         <activity android:name=".descripcion.cat1.desc1"></activity>
         <activity android:name=".ui.FusilAsalto" />
+        <activity android:name=".ui.SubFusil"/>
         <activity android:name=".MainActivity2" />
         <activity android:name=".MainActivity">
             <intent-filter>
