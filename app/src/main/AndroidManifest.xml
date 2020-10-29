@@ -27,6 +27,9 @@
         <activity android:name=".descripcion.cat1.desc1" />
         <activity android:name=".ui.FusilAsalto" />
         <activity android:name=".ui.SubFusil" />
+        <activity android:name=".ui.FusilPrecision"/>
+        <activity android:name=".ui.FusilTactico"/>
+        <activity android:name=".ui.AmetralladoraLigera"/>
         <activity android:name=".MainActivity2" />
         <activity android:name=".MainActivity">
             <intent-filter>
