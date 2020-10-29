@@ -1,7 +1,9 @@
 package app.orangekraft.warzguia.Controlador;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -9,13 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import app.orangekraft.warzguia.R;
+import app.orangekraft.warzguia.ui.FusilAsalto;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link Armas#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Armas extends Fragment {
+public class Armas extends Fragment  implements View.OnClickListener{
+    CardView card1;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -51,16 +55,42 @@ public class Armas extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_armas, container, false);
+        View view = inflater.inflate(R.layout.fragment_armas, container, false);
+
+        card1 = (CardView) view.findViewById(R.id.catfusil_asalto);
+        card1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getActivity(), FusilAsalto.class);
+                in.putExtra("some","some data");
+                startActivity(in);
+            }
+        });
+
+        return view;
+    }
+
+
+    @Override
+    public void onClick(View v) {
+
     }
 }

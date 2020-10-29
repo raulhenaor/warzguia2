@@ -1,17 +1,24 @@
 package app.orangekraft.warzguia;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ScrollView;
 
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
 import app.orangekraft.warzguia.Controlador.PagerController;
+import app.orangekraft.warzguia.ui.FusilAsalto;
 
 public class MainActivity extends AppCompatActivity {
+
+
+
     TabLayout tabLayout;
     TabItem tab1, tab2, tab3;
     ViewPager viewPager;
@@ -21,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
         tabLayout = findViewById(R.id.tabLayout);
         viewPager = findViewById(R.id.viewpager);
         tab1 = findViewById(R.id.tabmapas);
@@ -58,4 +68,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 }
