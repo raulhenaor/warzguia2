@@ -43,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
-                    android:text="LodaOut"
+                    android:text="FUSILES DE ASALTO"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="20dp"
@@ -114,7 +114,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/fusil_asalto" />
+                                    android:src="@drawable/kilo_101" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -185,7 +185,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/fusil_asalto" />
+                                    android:src="@drawable/fal" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -206,7 +206,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Kilo 131"
+                                    android:text="FAL"
                                     android:textColor="#3F51B5"
                                     android:textSize="20dp"
                                     android:textStyle="bold|italic"
@@ -216,7 +216,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:gravity="center_vertical"
-                                    android:text="Recarga: 2.6s \nADS: 267ms\nRPM: 779"
+                                    android:text="Recarga: 3.5s \nADS: 275ms\nRPM: 500"
                                     android:textAlignment="inherit"
                                     android:textSize="18dp"
                                     android:textStyle="bold" />
@@ -257,7 +257,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/fusil_asalto" />
+                                    android:src="@drawable/m4a1" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -278,7 +278,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Kilo 131"
+                                    android:text="M4A1"
                                     android:textColor="#3F51B5"
                                     android:textSize="20dp"
                                     android:textStyle="bold|italic"
@@ -288,7 +288,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:gravity="center_vertical"
-                                    android:text="Recarga: 2.6s \nADS: 267ms\nRPM: 779"
+                                    android:text="Recarga: 2.3s \nADS: 250ms\nRPM: 833"
                                     android:textAlignment="inherit"
                                     android:textSize="18dp"
                                     android:textStyle="bold" />
@@ -328,7 +328,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/fusil_asalto" />
+                                    android:src="@drawable/fr5_56" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -349,7 +349,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Kilo 131"
+                                    android:text="FR 5.56"
                                     android:textColor="#3F51B5"
                                     android:textSize="20dp"
                                     android:textStyle="bold|italic"
@@ -359,7 +359,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:gravity="center_vertical"
-                                    android:text="Recarga: 2.6s \nADS: 267ms\nRPM: 779"
+                                    android:text="Recarga: 2.8s \nADS: 317ms\nRPM: 1000"
                                     android:textAlignment="inherit"
                                     android:textSize="18dp"
                                     android:textStyle="bold" />
@@ -399,7 +399,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/fusil_asalto" />
+                                    android:src="@drawable/oden" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -420,7 +420,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Kilo 131"
+                                    android:text="Oden"
                                     android:textColor="#3F51B5"
                                     android:textSize="20dp"
                                     android:textStyle="bold|italic"
@@ -430,7 +430,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:gravity="center_vertical"
-                                    android:text="Recarga: 2.6s \nADS: 267ms\nRPM: 779"
+                                    android:text="Recarga: 3.3s \nADS: 367ms\nRPM: 435"
                                     android:textAlignment="inherit"
                                     android:textSize="18dp"
                                     android:textStyle="bold" />
@@ -470,7 +470,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/fusil_asalto" />
+                                    android:src="@drawable/m13" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -491,7 +491,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_vertical"
-                                    android:text="Kilo 131"
+                                    android:text="M13"
                                     android:textColor="#3F51B5"
                                     android:textSize="20dp"
                                     android:textStyle="bold|italic"
@@ -501,7 +501,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:gravity="center_vertical"
-                                    android:text="Recarga: 2.6s \nADS: 267ms\nRPM: 779"
+                                    android:text="Recarga: 2.6s \nADS: 250ms\nRPM: 923"
                                     android:textAlignment="inherit"
                                     android:textSize="18dp"
                                     android:textStyle="bold" />
@@ -512,6 +512,79 @@
 
 
                     </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_row="6"
+                        android:layout_column="0"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:weightSum="2">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/fn_scar_17" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginHorizontal="30sp"
+                                android:orientation="vertical"
+                                android:weightSum="2" />
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:text="FN SCAR 17"
+                                    android:textColor="#3F51B5"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold|italic"
+                                    android:typeface="serif" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:text="Recarga: 2.6s \nADS: 317ms\nRPM: 600"
+                                    android:textAlignment="inherit"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
 
                 </GridLayout>
 
