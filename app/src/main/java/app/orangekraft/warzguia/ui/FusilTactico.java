@@ -8,15 +8,13 @@ import android.widget.ImageView;
 
 import app.orangekraft.warzguia.R;
 
-import app.orangekraft.warzguia.R;
-
-public class escopeta extends AppCompatActivity {
+public class FusilTactico extends AppCompatActivity {
     ImageView IvRegresar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_escopeta);
+        setContentView(R.layout.activity_fusil_tactico);
 
         IvRegresar = (ImageView) findViewById(R.id.botonatras);
         IvRegresar.setOnClickListener(new View.OnClickListener() {

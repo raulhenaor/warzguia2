@@ -11,8 +11,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import app.orangekraft.warzguia.R;
+import app.orangekraft.warzguia.ui.AmetralladoraLigera;
 import app.orangekraft.warzguia.ui.FusilAsalto;
+import app.orangekraft.warzguia.ui.FusilPrecision;
+import app.orangekraft.warzguia.ui.FusilTactico;
 import app.orangekraft.warzguia.ui.SubFusil;
+import app.orangekraft.warzguia.ui.escopeta;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -20,7 +24,7 @@ import app.orangekraft.warzguia.ui.SubFusil;
  * create an instance of this fragment.
  */
 public class Armas extends Fragment  implements View.OnClickListener{
-    CardView card1, card2;
+    CardView card1, card2, card3, card4, card5, card6;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -91,6 +95,46 @@ public class Armas extends Fragment  implements View.OnClickListener{
             @Override
             public void onClick(View v){
                 Intent in = new Intent(getActivity(), SubFusil.class);
+                in.putExtra("some", "some data");
+                startActivity(in);
+            }
+        });
+
+        card3 = (CardView) view.findViewById(R.id.catescopeta);
+        card3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent in = new Intent(getActivity(), escopeta.class);
+                in.putExtra("some", "some data");
+                startActivity(in);
+            }
+        });
+
+        card4 = (CardView) view.findViewById(R.id.catametralladora_ligera);
+        card4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent in = new Intent(getActivity(), AmetralladoraLigera.class);
+                in.putExtra("some", "some data");
+                startActivity(in);
+            }
+        });
+
+        card5 = (CardView) view.findViewById(R.id.catfusil_tactico);
+        card5.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent in = new Intent(getActivity(), FusilTactico.class);
+                in.putExtra("some", "some data");
+                startActivity(in);
+            }
+        });
+
+        card6 = (CardView) view.findViewById(R.id.catfusil_precision);
+        card6.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent in = new Intent(getActivity(), FusilPrecision.class);
                 in.putExtra("some", "some data");
                 startActivity(in);
             }
