@@ -11,7 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Warzguia">
-        <activity android:name=".descripcion.cat2.descc2l8"></activity>
+        <activity android:name=".descripcion.cat3.descc3l5"></activity>
+        <activity android:name=".descripcion.cat3.descc3l4" />
+        <activity android:name=".descripcion.cat3.descc3l3" />
+        <activity android:name=".descripcion.cat3.descc3l2" />
+        <activity android:name=".descripcion.cat3.descc3l1" />
+        <activity android:name=".descripcion.cat3.descc3l0" />
+        <activity android:name=".descripcion.cat2.descc2l8" />
         <activity android:name=".descripcion.cat2.descc2l7" />
         <activity android:name=".descripcion.cat2.descc2l6" />
         <activity android:name=".descripcion.cat2.descc2l5" />
@@ -36,9 +42,9 @@
         <activity android:name=".descripcion.cat1.desc1" />
         <activity android:name=".ui.FusilAsalto" />
         <activity android:name=".ui.SubFusil" />
-        <activity android:name=".ui.FusilPrecision"/>
-        <activity android:name=".ui.FusilTactico"/>
-        <activity android:name=".ui.AmetralladoraLigera"/>
+        <activity android:name=".ui.FusilPrecision" />
+        <activity android:name=".ui.FusilTactico" />
+        <activity android:name=".ui.AmetralladoraLigera" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".MainActivity">
             <intent-filter>
