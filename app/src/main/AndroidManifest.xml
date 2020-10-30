@@ -11,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Warzguia">
-        <activity android:name=".descripcion.cat1.desc13"></activity>
+        <activity android:name=".descripcion.cat2.descc2l8"></activity>
+        <activity android:name=".descripcion.cat2.descc2l7" />
+        <activity android:name=".descripcion.cat2.descc2l6" />
+        <activity android:name=".descripcion.cat2.descc2l5" />
+        <activity android:name=".descripcion.cat2.descc2l4" />
+        <activity android:name=".descripcion.cat2.descc2l3" />
+        <activity android:name=".descripcion.cat2.descc2l2" />
+        <activity android:name=".descripcion.cat2.descc2l1" />
+        <activity android:name=".descripcion.cat2.descc2l0" />
+        <activity android:name=".descripcion.cat1.desc13" />
         <activity android:name=".descripcion.cat1.desc12" />
         <activity android:name=".descripcion.cat1.desc11" />
         <activity android:name=".descripcion.cat1.desc10" />
