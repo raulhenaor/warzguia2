@@ -45,11 +45,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
-                    android:text="Nombre Arma 1"
+                    android:text="EQUIPAMIENTO"
 
                     android:textAllCaps="false"
                     android:textColor="@color/white"
-                    android:textSize="20dp"
+                    android:textSize="25dp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -114,22 +114,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ak_47"
+                            android:src="@drawable/aug"
                             android:scaleType="fitStart"
                             android:adjustViewBounds="true"
 
                             />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:paddingHorizontal="10sp"
 
-
-                            android:text="Nombre de Arma 1"
-                            android:textSize="20dp"
-                            android:textStyle="bold"
-                            android:typeface="normal" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -139,20 +130,22 @@
 
                             android:paddingTop="10sp"
                             android:text="
-M13:\n
-*Alta movilidad: Balanceado\n
-*Boca de Cañon: Silenciado ligero\n
-*Cañon: Tempus de Tirador\n
-*Culata: Sin culata\n
-*Acople: Empuñadura frontal de mercenario\n
-*Largo alcance: Bajo Recoil\n
-*Boca de cañon: Supresor Monolítico\n
-*Cañon: Tempus de tiradora\n
-*Láser: Laser táctico\n
-*Mira: Híbrida integrada\n
-*Munición: Cargador de 50 balas"
+AUG:\n
+-5.56 NATO-\n
++ Láser: Láser de 5mW\n
++ Culata: FTAC ultraligero hueco\n
++ Acople: Empuñadura frontal de operador\n
++ Munición: Cargador de 30 balas 5.56 NATO\n
++ Empuñadura trasera: Adhesivo punteado\n
+\n
+-PEQUEÑA AMETRALLADORA LIGERA-\n
++ Cañón: Cañón extendido de 407mm\n
++ Culata: FTAC ultraligero hueco\n
++ Acople: Empuñadura frontal táctico\n
++ Munición: Tambor de 60 balas 5.56 NATO\n
++ Empuñadura trasera: Adhesivo punteado"
 
-                            android:textSize="18dp"
+                            android:textSize="20dp"
                             android:typeface="normal" />
 
 
@@ -177,4 +170,5 @@ M13:\n
             </GridLayout>
         </androidx.core.widget.NestedScrollView>
     </LinearLayout>
+
 </LinearLayout>
