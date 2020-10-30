@@ -15,7 +15,7 @@ public class descc4l6 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_descc4l6);
 
-        atras = (ImageView) findViewById(R.id.Cardc4l0);
+        atras = (ImageView) findViewById(R.id.btnc1a1d1);
         atras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
