@@ -1,4 +1,4 @@
-package app.orangekraft.warzguia.descripcion.cat4;
+package app.orangekraft.warzguia.descripcion.cat6;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,19 +8,22 @@ import android.widget.ImageView;
 
 import app.orangekraft.warzguia.R;
 
-public class descc4l4 extends AppCompatActivity {
+public class descc6l0 extends AppCompatActivity {
     ImageView atras;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_descc4l4);
+        setContentView(R.layout.activity_descc6l0);
 
-        atras = (ImageView) findViewById(R.id.btnc1a1d1);
+        atras = (ImageView)findViewById(R.id.btnc1a1d1);
         atras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
+
+
     }
 }

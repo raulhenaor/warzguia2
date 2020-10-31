@@ -17,6 +17,12 @@ import app.orangekraft.warzguia.descripcion.cat2.descc2l2;
 import app.orangekraft.warzguia.descripcion.cat2.descc2l3;
 import app.orangekraft.warzguia.descripcion.cat2.descc2l4;
 import app.orangekraft.warzguia.descripcion.cat2.descc2l5;
+import app.orangekraft.warzguia.descripcion.cat3.descc3l0;
+import app.orangekraft.warzguia.descripcion.cat3.descc3l1;
+import app.orangekraft.warzguia.descripcion.cat3.descc3l2;
+import app.orangekraft.warzguia.descripcion.cat3.descc3l3;
+import app.orangekraft.warzguia.descripcion.cat3.descc3l4;
+import app.orangekraft.warzguia.descripcion.cat3.descc3l5;
 
 public class escopeta extends AppCompatActivity {
     ImageView IvRegresar;
@@ -39,7 +45,7 @@ public class escopeta extends AppCompatActivity {
         card0.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent i= new Intent(escopeta.this, descc2l0.class);
+                Intent i= new Intent(escopeta.this, descc3l0.class);
                 startActivity(i);
             }
         });
@@ -48,7 +54,7 @@ public class escopeta extends AppCompatActivity {
         card1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent i= new Intent(escopeta.this, descc2l1.class);
+                Intent i= new Intent(escopeta.this, descc3l1.class);
                 startActivity(i);
             }
         });
@@ -57,7 +63,7 @@ public class escopeta extends AppCompatActivity {
         card2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent i= new Intent(escopeta.this, descc2l2.class);
+                Intent i= new Intent(escopeta.this, descc3l2.class);
                 startActivity(i);
             }
         });
@@ -66,7 +72,7 @@ public class escopeta extends AppCompatActivity {
         card3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent i= new Intent(escopeta.this, descc2l3.class);
+                Intent i= new Intent(escopeta.this, descc3l3.class);
                 startActivity(i);
             }
         });
@@ -75,7 +81,7 @@ public class escopeta extends AppCompatActivity {
         card4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent i= new Intent(escopeta.this, descc2l4.class);
+                Intent i= new Intent(escopeta.this, descc3l4.class);
                 startActivity(i);
             }
         });
@@ -84,7 +90,7 @@ public class escopeta extends AppCompatActivity {
         card5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent i= new Intent(escopeta.this, descc2l5.class);
+                Intent i= new Intent(escopeta.this, descc3l5.class);
                 startActivity(i);
             }
         });
