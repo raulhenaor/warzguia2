@@ -46,11 +46,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
-                    android:text="Nombre Arma 2"
+                    android:text="EQUIPAMIENTO"
 
                     android:textAllCaps="false"
                     android:textColor="@color/white"
-                    android:textSize="20dp"
+                    android:textSize="25dp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -115,22 +115,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ak_47"
+                            android:src="@drawable/sa87"
                             android:scaleType="fitStart"
                             android:adjustViewBounds="true"
 
                             />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:paddingHorizontal="10sp"
 
-
-                            android:text="Nombre de Arma 1"
-                            android:textSize="20dp"
-                            android:textStyle="bold"
-                            android:typeface="normal" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -140,20 +131,22 @@
 
                             android:paddingTop="10sp"
                             android:text="
-M13:\n
-*Alta movilidad: Balanceado\n
-*Boca de Cañon: Silenciado ligero\n
-*Cañon: Tempus de Tirador\n
-*Culata: Sin culata\n
-*Acople: Empuñadura frontal de mercenario\n
-*Largo alcance: Bajo Recoil\n
-*Boca de cañon: Supresor Monolítico\n
-*Cañon: Tempus de tiradora\n
-*Láser: Laser táctico\n
-*Mira: Híbrida integrada\n
-*Munición: Cargador de 50 balas"
+SA 87:\n
+-LARGO ALCANCE-\n
++ Boca de Cañón: Freno de boca\n
++ Cañón: SA87 de 64.5cm estándar\n
++ Mira: Mira de exploración de combate\n
++ Acople: Empuñadura frontal de ranger\n
++ Munición: Cargador de 60 balas\n
+\n
+-GRAN VELOCIDAD DE APUNTADO-\n
++ Boca de cañón: Freno de boca\n
++ Cañón: SA87 de 64.5cm estándar\n
++ Culata: Culata pesada XRK SA87 pro\n
++ Acople: Empuñadura frontal de ranger\n
++ Munición: Cargador de 60 balas"
 
-                            android:textSize="18dp"
+                            android:textSize="20dp"
                             android:typeface="normal" />
 
 
