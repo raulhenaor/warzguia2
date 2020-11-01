@@ -2,14 +2,20 @@ package app.orangekraft.warzguia.Controlador;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.cardview.widget.CardView;
-import androidx.fragment.app.Fragment;
-
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.cardview.widget.CardView;
+import androidx.core.view.LayoutInflaterCompat;
+import androidx.fragment.app.Fragment;
+
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
+import app.orangekraft.warzguia.MainActivity;
 import app.orangekraft.warzguia.R;
 import app.orangekraft.warzguia.ui.AmetralladoraLigera;
 import app.orangekraft.warzguia.ui.FusilAsalto;
@@ -25,6 +31,8 @@ import app.orangekraft.warzguia.ui.escopeta;
  */
 public class Armas extends Fragment  implements View.OnClickListener{
     CardView card1, card2, card3, card4, card5, card6;
+    private InterstitialAd mInterstitialAd;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -49,12 +57,15 @@ public class Armas extends Fragment  implements View.OnClickListener{
      */
     // TODO: Rename and change types and number of parameters
     public static Armas newInstance(String param1, String param2) {
+
         Armas fragment = new Armas();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
+
+
     }
 
     @Override
@@ -62,9 +73,15 @@ public class Armas extends Fragment  implements View.OnClickListener{
         super.onCreate(savedInstanceState);
 
 
+        mInterstitialAd = new InterstitialAd(getContext());
+        mInterstitialAd.setAdUnitId("ca-app-pub-6141328272992308/5405135693");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
         }
 
 
@@ -76,17 +93,45 @@ public class Armas extends Fragment  implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        mInterstitialAd = new InterstitialAd(getContext());
+        mInterstitialAd.setAdUnitId("ca-app-pub-6141328272992308/5405135693");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                // Load the next interstitial.
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+
+        });
+
+
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_armas, container, false);
+
+
 
         card1 = (CardView) view.findViewById(R.id.catfusil_asalto);
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
+
+
                 Intent in = new Intent(getActivity(), FusilAsalto.class);
                 in.putExtra("some","some data");
                 startActivity(in);
+
+
+
+
             }
         });
 
@@ -94,6 +139,11 @@ public class Armas extends Fragment  implements View.OnClickListener{
         card2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
                 Intent in = new Intent(getActivity(), SubFusil.class);
                 in.putExtra("some", "some data");
                 startActivity(in);
@@ -104,6 +154,12 @@ public class Armas extends Fragment  implements View.OnClickListener{
         card3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
+
                 Intent in = new Intent(getActivity(), escopeta.class);
                 in.putExtra("some", "some data");
                 startActivity(in);
@@ -114,6 +170,11 @@ public class Armas extends Fragment  implements View.OnClickListener{
         card4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
                 Intent in = new Intent(getActivity(), AmetralladoraLigera.class);
                 in.putExtra("some", "some data");
                 startActivity(in);
@@ -124,6 +185,11 @@ public class Armas extends Fragment  implements View.OnClickListener{
         card5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
                 Intent in = new Intent(getActivity(), FusilTactico.class);
                 in.putExtra("some", "some data");
                 startActivity(in);
@@ -132,8 +198,14 @@ public class Armas extends Fragment  implements View.OnClickListener{
 
         card6 = (CardView) view.findViewById(R.id.catfusil_precision);
         card6.setOnClickListener(new View.OnClickListener(){
+
             @Override
             public void onClick(View v){
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
                 Intent in = new Intent(getActivity(), FusilPrecision.class);
                 in.putExtra("some", "some data");
                 startActivity(in);

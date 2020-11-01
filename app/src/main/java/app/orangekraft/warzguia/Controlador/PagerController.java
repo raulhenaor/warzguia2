@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 public class PagerController extends FragmentPagerAdapter {
     int numoftabs;
 
@@ -16,6 +19,8 @@ public class PagerController extends FragmentPagerAdapter {
     @NonNull
     @Override
     public Fragment getItem(int position) {
+
+
         switch (position){
             case 0:
                 return new Mapas();

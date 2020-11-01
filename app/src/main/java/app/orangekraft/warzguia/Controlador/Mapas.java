@@ -8,6 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
+import app.orangekraft.warzguia.MainActivity;
 import app.orangekraft.warzguia.R;
 
 /**
@@ -21,6 +25,7 @@ public class Mapas extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    InterstitialAd mInterstitialAd;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -51,6 +56,9 @@ public class Mapas extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mInterstitialAd = new InterstitialAd(getContext());
+        mInterstitialAd.setAdUnitId("ca-app-pub-6141328272992308/5405135693");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -60,7 +68,11 @@ public class Mapas extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        mInterstitialAd = new InterstitialAd(getContext());
+        mInterstitialAd.setAdUnitId("ca-app-pub-6141328272992308/5405135693");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_mapas, container, false);
+
     }
 }

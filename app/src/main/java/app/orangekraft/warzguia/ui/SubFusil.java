@@ -8,6 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+
 import app.orangekraft.warzguia.R;
 import app.orangekraft.warzguia.descripcion.cat1.desc13;
 import app.orangekraft.warzguia.descripcion.cat2.descc2l0;
@@ -23,11 +29,22 @@ import app.orangekraft.warzguia.descripcion.cat2.descc2l8;
 public class SubFusil extends AppCompatActivity {
     ImageView IvRegresar;
     CardView card0, card1,card2, card3, card4, card5, card6, card7, card8;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_subfusil);
+
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         IvRegresar = (ImageView) findViewById(R.id.botonatras);
         IvRegresar.setOnClickListener(new View.OnClickListener() {

@@ -6,15 +6,18 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ScrollView;
 
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
+import app.orangekraft.warzguia.Controlador.Armas;
 import app.orangekraft.warzguia.Controlador.PagerController;
 import app.orangekraft.warzguia.ui.FusilAsalto;
 import com.google.android.gms.ads.AdRequest;
@@ -30,11 +33,18 @@ public class MainActivity extends AppCompatActivity {
     TabItem tab1, tab2, tab3;
     ViewPager viewPager;
     PagerController pagerAdapter;
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mInterstitialAd = new InterstitialAd(MainActivity.this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-6141328272992308/5405135693");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
@@ -61,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
+                
                 viewPager.setCurrentItem(tab.getPosition());
                 if (tab.getPosition()==0){
                     pagerAdapter.notifyDataSetChanged();

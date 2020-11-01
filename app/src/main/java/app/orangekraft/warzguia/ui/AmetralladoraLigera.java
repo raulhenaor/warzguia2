@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
@@ -35,6 +36,7 @@ public class AmetralladoraLigera extends AppCompatActivity {
     CardView card0,card1,card2,card3,card4,card5,card6;
     private static final String TAG = "MainActivity";
     private AdView mAdView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
