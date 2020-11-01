@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.viewpager);
         tab1 = findViewById(R.id.tabmapas);
         tab2 = findViewById(R.id.tabarmas);
+        tab3 = findViewById(R.id.donate);
 
         pagerAdapter = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(pagerAdapter);
@@ -77,6 +78,9 @@ public class MainActivity extends AppCompatActivity {
                     pagerAdapter.notifyDataSetChanged();
                 }
                 if (tab.getPosition()==1){
+                    pagerAdapter.notifyDataSetChanged();
+                }
+                if (tab.getPosition()==2){
                     pagerAdapter.notifyDataSetChanged();
                 }
             }

@@ -39,6 +39,15 @@
 
                 />
 
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/donate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donar"
+                android:icon="@drawable/moneda"
+
+                />
+
 
         </com.google.android.material.tabs.TabLayout>
 

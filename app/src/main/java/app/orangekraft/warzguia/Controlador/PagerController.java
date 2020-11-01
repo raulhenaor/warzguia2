@@ -26,6 +26,8 @@ public class PagerController extends FragmentPagerAdapter {
                 return new Mapas();
             case 1:
                 return  new Armas();
+            case 2:
+                return new Donate();
             default:
                 return  null;
 
