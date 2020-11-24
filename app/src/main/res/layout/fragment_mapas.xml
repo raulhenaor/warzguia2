@@ -22,7 +22,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/mapawz"
+                android:paddingHorizontal="5dp"
+                android:src="@drawable/mapawz_edicion"
                 android:scaleType="fitStart"
                 android:adjustViewBounds="true"
                 />
@@ -73,7 +74,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 3: Adentro del Bunker 2; inactivo" />
+                android:text="BUNKER 4: Sur de Dam; Requiere tarjeta roja" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -85,7 +86,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 4: Sur de Dam; Requiere tarjeta roja" />
+                android:text="BUNKER 5: Oeste de Crash Site; Requiere tarjeta roja" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -97,7 +98,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 5: Oeste de Crash Site; Requiere tarjeta roja" />
+                android:text="BUNKER 6: Entre Quarry y Lumber; Requiere tarjeta roja" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -109,7 +110,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 6: Entre Quarry y Lumber; Requiere tarjeta roja" />
+                android:text="BUNKER 9: Noreste de Prison; Requiere tarjeta roja" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -121,7 +122,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 7: Este de Tv Station; inactivo" />
+                android:text="BUNKER 10: Sur de Tavorsk Park; Código 60274513" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -133,7 +134,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 8: Frente al bunker 7; inactivo" />
+                android:text="BUNKER 11: Norte de Military Base; Easter Egg Temporada 6" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -145,7 +146,7 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 9: Noreste de Prison; Requiere tarjeta roja" />
+                android:text="CHOZA H1: Este TV Station; Código 27495810" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -157,7 +158,19 @@
                 android:textSize="20dp"
                 android:paddingLeft="5dp"
                 android:textColor="@color/white"
-                android:text="BUNKER 10: Sur de Tavorsk Park; Código 60274513" />
+                android:text="CHOZA H2: Oeste de Prison; Código 72948531" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"/>
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/white"
+                android:text="CUARTO R: Granja Krovnik Farmland; Código 49285163" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
