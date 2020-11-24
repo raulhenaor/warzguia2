@@ -116,7 +116,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-                            android:text="En el mapa de Verdansk se despliegan dos Drops gratuitos a lo largo de la partida, caerá en un área entre 130 a 200 metros de cualquier miembro del equipo y caerá siempre dentro del círculo.En el mapa de Verdansk se despliegan dos Drops gratuitos a lo largo de la partida, caerá en un área entre 130 a 200 metros de cualquier miembro del equipo y caerá siempre dentro del círculo.\n"
+                            android:text="En el mapa de Verdansk se despliegan dos Drops gratuitos a lo largo de la partida, caerá en un área entre 130 a 200 metros de cualquier miembro del equipo y caerá siempre dentro del círculo.\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 
@@ -137,6 +137,7 @@
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:text="Primer Drop\n"
                             android:textSize="25dp"
                             android:textStyle="bold"
@@ -169,6 +170,7 @@
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:text="Segundo Drop\n"
                             android:textSize="25dp"
                             android:textStyle="bold"
