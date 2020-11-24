@@ -127,27 +127,56 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="725:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-GUERRA-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-725:\n
--GUERRA-\n
-+ Boca de Cañón: Estrangulador\n
-+ Cañón: Tempus de 81.3 de competencia\n
-+ Láser: Láser táctico\n
-+ Empuñadura trasera: Tempus Slimgrip\n
-+ Ventaja: Prestidigitación\n
-\n
--ELIMINACIÓN INSTANTANEA-\n
-+ Boca de cañón: Estrangulador\n
-+ Cañón: Cañón recortado\n
-+ Culata: Culata recortada\n
-+ Acople: Empuñadura frontal de mercenario\n
-+ Empuñadura trasera: Tempus Slimgrip"
-
+* Boca de Cañón: Estrangulador\n
+* Cañón: Tempus de 81.3 de competencia\n
+* Láser: Láser táctico\n
+* Empuñadura trasera: Tempus Slimgrip\n
+* Ventaja: Prestidigitación\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-ELIMINACIÓN TOTAL-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de cañón: Estrangulador\n
+* Cañón: Cañón recortado\n
+* Culata: Culata recortada\n
+* Acople: Empuñadura frontal de mercenario\n
+* Empuñadura trasera: Tempus Slimgrip\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 

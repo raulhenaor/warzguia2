@@ -126,28 +126,36 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="Dragunov:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-TIRADOR COMANDO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-Dragunov::\n
--TIRADOR COMANDO-\n
-+ Boca de Cañón: Silenciador monolitico\n
-+ Cañón: Cañón ampliado de 660mm\n
-+ Mira: Mira de exploración de comando\n
-+ Culata: FTAC cazador-explorador\n
-+ Munición: Cargador de 20 balas\n
-\n
-"
-
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: Cañón ampliado de 660mm\n
+* Mira: Mira de exploración de comando\n
+* Culata: FTAC cazador-explorador\n
+* Munición: Cargador de 20 balas\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
-
-
-
-
 
 
 

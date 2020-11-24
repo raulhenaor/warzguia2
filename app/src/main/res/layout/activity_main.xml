@@ -43,8 +43,8 @@
                 android:id="@+id/donate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Donar"
-                android:icon="@drawable/moneda"
+                android:text="EXTRAS"
+                android:icon="@drawable/ic_baseline_add_circle_outline_24"
 
                 />
 

@@ -126,26 +126,56 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="Striker 45:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-FULL COMANDO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-Striker 45:\n
--FULL COMANDO-\n
-+ Boca de Cañón: Silenciador monolitico\n
-+ Cañón: De acero inoxidable de 400mm\n
-+ Acople: Empuñadura frontal de comando\n
-+ Munición: Cargador de 45 balas\n
-+ Empuñadura trasera: FTAC G-5 EXO\n
-\n
-"
-
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: De acero inoxidable de 400mm\n
+* Acople: Empuñadura frontal de comando\n
+* Munición: Cargador de 45 balas\n
+* Empuñadura trasera: FTAC G-5 EXO\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 
 
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/striker_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
 
 
 

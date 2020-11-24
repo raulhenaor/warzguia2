@@ -127,28 +127,36 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="MODEL 680:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-BASTON FURIOSO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-MODEL 680:\n
--BASTON FURIOSO-\n
-+ Boca de Cañón: Freno de boca\n
-+ Cañón: XRK 14.0 SWAT\n
-+ Láser: Láser de 5mW\n
-+ Culata: Sin culata\n
-+ Munición: Municion aliento de dragón\n
-\n
-"
-
+* Boca de Cañón: Freno de boca\n
+* Cañón: XRK 14.0 SWAT\n
+* Láser: Láser de 5mW\n
+* Culata: Sin culata\n
+* Munición: Municion aliento de dragón\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
-
-
-
-
 
 
 

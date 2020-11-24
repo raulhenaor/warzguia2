@@ -126,30 +126,77 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="MP7:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-COMBATE CERCANO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-MP7:\n
--COMBATE CERCANO PURO-\n
-+ Boca de Cañón: Compensador\n
-+ Cañón: FSS de reconocimiento\n
-+ Láser: Láser de 5mW\n
-+ Acople: Empuñadura frontal de ranger\n
-+ Empuñadura trasera: Adhesivo punteado\n
-\n
--ASESINO-\n
-+ Boca de cañón: Silenciador ligero\n
-+ Cañón: FSS SWAT\n
-+ Láser: Láser de 5mW\n
-+ Culata: Culata para corta distancia FSS\n
-+ Empuñadura trasera: Adhesivo punteado"
-
+* Boca de cañón: Silenciador ligero\n
+* Cañón: FSS SWAT\n
+* Láser: Láser de 5mW\n
+* Culata: Culata para corta distancia FSS\n
+* Empuñadura trasera: Adhesivo punteado\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-ASESINO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: FSS de reconocimiento\n
+* Láser: Láser táctico\n
+* Acople: Empuñadura frontal de comando\n
+* Munición: Cargador de 60 balas\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/mp7_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
 
 
 

@@ -126,31 +126,77 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="PP19 BIZON:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-SIGILO MOVIL-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-PP19 BIZON:\n
--SIGILO MÓVIL-\n
-+ Boca de Cañón: Silenciador monolitico\n
-+ Cañón: De acero de 22.1cm\n
-+ Láser: Láser táctico\n
-+ Culata: Culata Corvus esqueleto\n
-+ Empuñadura trasera: Adhesivo punteado\n
-\n
--SIGILO BALANCEADO-\n
-+ Boca de cañón: Silenciador ligero\n
-+ Cañón: De acero de 22.1cm\n
-+ Mira: Réflex mini G.I.\n
-+ Culata: Culata Corvus esqueleto\n
-+ Empuñadura trasera: Adhesivo punteado"
-
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: De acero de 22.1cm\n
+* Láser: Láser táctico\n
+* Culata: Culata Corvus esqueleto\n
+* Empuñadura trasera: Adhesivo punteado\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-SIGILO BALANCEADO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de cañón: Silenciador ligero\n
+* Cañón: De acero de 22.1cm\n
+* Mira: Réflex mini G.I.\n
+* Culata: Culata Corvus esqueleto\n
+* Empuñadura trasera: Adhesivo punteado\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 
-
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/bizon_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
 
 
 

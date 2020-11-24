@@ -122,36 +122,60 @@
                             />
 
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="HDR:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-CARGA RAPIDA-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-HDR:\n
--CONCENTRACIÓN LEJANA-\n
-+ Boca de Cañón: Silenciador monolitico\n
-+ Cañón: HDR pro de 68.3cm\n
-+ Láser: Láser táctico\n
-+ Mira: Mira óptica con zoom variable\n
-+ Culata: FTAC acechador-explorador\n
-\n
--MIRA RAPIDA-\n
-+ Boca de cañón: Silenciador monolitico\n
-+ Cañón: HDR pro de 68.3cm\n
-+ Láser: Láser táctico\n
-+ Mira: Mira profesional Cronen C480\n
-+ Culata: FTAC campeón"
-
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: HDR Pro de 68.3 cm\n
+* Láser: Láser táctico\n
+* Culata: FTAC acechador - explorador\n
+* Ventaja: Prestidigitación\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
-
-
-
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-MIRA RAPIDA-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de cañón: Silenciador monolitico\n
+* Cañón: HDR pro de 68.3cm\n
+* Láser: Láser táctico\n
+* Mira: Mira profesional Cronen C480\n
+* Culata: FTAC campeón\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
 
 
 

@@ -126,30 +126,58 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="R9-0:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-BALANCEADA-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-R9-0:\n
--BALANCEADA-\n
-+ Boca de Cañón: Silenciador monolitico\n
-+ Cañón: FORGE TAC centinela\n
-+ Láser: Láser táctico\n
-+ Acople: Empuñadura frontal de mercenario\n
-+ Empuñadura trasera: Adhesivo punteado\n
-\n
--DISPARA Y CORRE SIN MIRA-\n
-+ Boca de cañón: Silenciador monolitico\n
-+ Cañón: FORGE TAC centinela\n
-+ Láser: Láser de 1mW\n
-+ Acople: Empuñadura frontal de mercenario\n
-+ Ventaja: Prestidigitación"
-
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: FORGE TAC centinela\n
+* Láser: Láser táctico\n
+* Acople: Empuñadura frontal de mercenario\n
+* Empuñadura trasera: Adhesivo punteado\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-DISPARA Y CORRE-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de cañón: Silenciador monolitico\n
+* Cañón: FORGE TAC centinela\n
+* Láser: Láser de 1mW\n
+* Acople: Empuñadura frontal de mercenario\n
+* Ventaja: Prestidigitación\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
 
 
 

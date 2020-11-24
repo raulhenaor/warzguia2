@@ -127,31 +127,58 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="Origin 12:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-UN TIRO UN MUERTO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-Origin 12:\n
--UN TIRO UN MUERTO-\n
-+ Boca de Cañón: Estrangulador\n
-+ Cañón: FORGE TAC Geminis\n
-+ Láser: Láser de 5mW\n
-+ Munición: Cartuchos de balas\n
-+ Empuñadura trasera: Adhesivo punteado \n
-\n
--MOVILIDAD LETAL-\n
-+ Boca de cañón: Estrangulador\n
-+ Cañón: FORGE TAC empalador\n
-+ Láser: Láser de 5mW\n
-+ Culata: Sin culata\n
-+ Munición: Cargador de 12 balas"
-
+* Boca de Cañón: Estrangulador\n
+* Cañón: FORGE TAC Geminis\n
+* Láser: Láser de 5mW\n
+* Munición: Cartuchos de balas\n
+* Empuñadura trasera: Adhesivo punteado \n"
                             android:textSize="20dp"
                             android:typeface="normal" />
-
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-MOVILIDAD LETAL-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: FORGE TAC empalador\n
+* Láser: Láser de 5mw\n
+* Culata: Sin culata\n
+* Munición: Tambor de 25 balas\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
 
 
 

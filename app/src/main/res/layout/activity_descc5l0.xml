@@ -127,29 +127,77 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="EBR-14:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-MAXIMA PRECISIÓN-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-EBR-14:\n
--MAXIMA PRECISIÓN-\n
-+ Boca de Cañón: Freno de boca\n
-+ Cañón: FORGE TAC de precisión de 55.9cm\n
-+ Mira: Hibrida plegable x4\n
-+ Culata: Peine de precisión FTAC\n
-+ Acople: Empuñadura frontal de ranger\n
-\n
--TIRADOR VELOZ-\n
-+ Cañón: FORGE TAC de élite\n
-+ Láser: Láser táctico\n
-+ Culata: Chasis pro FSS ataltante\n
-+ Acople: Empuñadura frontal tático\n
-+ Munición: Cargador de 20 balas"
-
+* Boca de Cañón: Freno de boca\n
+* Cañón: FORGE TAC de precisión de 55.9cm\n
+* Mira: Hibrida plegable x4\n
+* Culata: Peine de precisión FTAC\n
+* Acople: Empuñadura frontal de ranger\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-TIRADOR VELOZ-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Cañón: FORGE TAC de élite\n
+* Láser: Láser táctico\n
+* Culata: Chasis pro FSS ataltante\n
+* Acople: Empuñadura frontal tático\n
+* Munición: Cargador de 20 balas\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/ebr_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
 
 
 

@@ -552,5 +552,7 @@
         >
     </com.google.android.gms.ads.AdView>
 
+        >
+    </LinearLayout>
 
-</LinearLayout>
+

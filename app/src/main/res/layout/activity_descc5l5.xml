@@ -126,29 +126,79 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="SP-R 208:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-TIRADOR LEJANO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-SP-R 208:\n
--TIRADOR LEJANO-\n
-+ Boca de Cañón: Silenciador monolitico\n
-+ Cañón: SP-R de 66cm\n
-+ Mira: Solozero SP-R 28mm\n
-+ Acople: Empuñadura frontal de comando\n
-+ Munición: Cargador de calibre 338 Lapua x5\n
-\n
--MIRA AGIL-\n
-+ Boca de cañón: Silenciador ligero\n
-+ Láser: Láser táctico\n
-+ Culata: XRK SP-LITE 208 Blitz\n
-+ Acople: Empuñadura frontal de mercenario\n
-+ Mecanismo de cerrojo: Sloan KR-600 Feather"
-
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: SP-R de 66cm\n
+* Mira: Solozero SP-R 28mm\n
+* Acople: Empuñadura frontal de comando\n
+* Munición: Cargador de calibre 338 Lapua x5\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-MIRA AGIL-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de cañón: Silenciador ligero\n
+* Láser: Láser táctico\n
+* Culata: XRK SP-LITE 208 Blitz\n
+* Acople: Empuñadura frontal de mercenario\n
+* Mecanismo de cerrojo: Sloan KR-600 Feather\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/spr_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
+
+
 
 
 

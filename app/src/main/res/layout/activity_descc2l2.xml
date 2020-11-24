@@ -122,35 +122,79 @@
 
                             />
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="MP5:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
 
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-ASESINO SILENCIOSO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-MP5:\n
--SIEMPRE EN MOVIMIENTO-\n
-+ Boca de Cañón: Compensador\n
-+ Cañón: FSS mini\n
-+ Culata: FORGE TAC ultraligero\n
-+ Acople: Empuñadura frontal de operador\n
-+ Empuñadura trasera: Adhesivo punteado\n
-\n
--ASESINO SILENCIOSO-\n
-+ Cañón: Slenciador integrado subsónico\n
-+ Culata: FTAC plegable\n
-+ Acople: Empuñadura frontal de operador\n
-+ Munición: Cargador de 30 balas de 10mm\n
-+ Empuñadura trasera: Adhesivo punteado"
-
+* Boca de Cañón: Silenciador monolitico\n
+* Láser: Láser de 5 mw\n
+* Acople: Empuñadura frontal de mercenario\n
+* Munición: Cargador de 45 balas\n
+* Ventaja: Prestidigitación\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-EN MOVIMIENTO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de Cañón: Compensador\n
+* Cañón: FSS mini\n
+* Culata: FORGE TAC ultraligero\n
+* Acople: Empuñadura frontal de operador\n
+* Empuñadura trasera: Adhesivo punteado\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 
-
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/mp5_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
 
 
 

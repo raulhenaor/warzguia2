@@ -123,34 +123,79 @@
                             />
 
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="Kilo 141:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-AUTOMATICA-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-FN Scar 17:\n
--AUTOMATICA-\n
-+ Boca de Cañón: Freno de boca\n
-+ Cañón: FORGE TAC de 43.5 LB\n
-+ Culata: FORGE TAC cazador\n
-+ Acople: Empuñadura frontal de mercenario\n
-+ Empuñadura trasera: Adhesivo granulado\n
-\n
--VERSATIL-\n
-+ Boca de cañón: Freno de boca\n
-+ Láser: Láser táctico\n
-+ Culata: XRK Obelisk Pro\n
-+ Acople: Empuñadura frontal de operador\n
-+ Empuñadura trasera: Adhesivo engomado"
-
+* Boca de Cañón: Freno de boca\n
+* Cañón: FORGE TAC de 43.5 LB\n
+* Culata: FORGE TAC cazador\n
+* Acople: Empuñadura frontal de mercenario\n
+* Empuñadura trasera: Adhesivo granulado\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-VERSATIL-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de cañón: Freno de boca\n
+* Láser: Láser táctico\n
+* Culata: XRK Obelisk Pro\n
+* Acople: Empuñadura frontal de operador\n
+* Empuñadura trasera: Adhesivo engomado\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 
-
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/fn_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
 
 
 

@@ -123,32 +123,79 @@
                             />
 
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="M4A1:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-OFENSIVA MOVIL-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-M4A1:\n
--OFENSIVA MOVIL/BALANCEADO-\n
-+ Cañón: Corvus personalizado de tirador\n
-+ Culata: Sin culata\n
-+ Acople: Empuñadura frontal de mercenario\n
-+ Munición: Cargador de 50 balas\n
-+ Empuñadura trasera: Adhesivo punteado\n
-\n
--CARRERA SILENCIOSA-\n
-+ CañÓn: FSS de 31.5cm Predator\n
-+ Láser: Láser táctico\n
-+ Culata: Sin culata\n
-+ Acople: Empuñadura frontal de mercenario\n
-+ Empuñadura trasera: Adhesivo punteado"
-
+* Cañón: Corvus personalizado de tirador\n
+* Culata: Sin culata\n
+* Acople: Empuñadura forntal de mercenario\n
+* Munición: Cargador de 50 balas\n
+* Empuñadura trasera: Adhesivo punteado\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-CARRERA SILENCIOSA-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Cañón: FSS de 31.5 cm Predator\n
+* Láser: Láser táctico\n
+* Culata: Sin culata\n
+* Acople: Empuñadura frontal de mercenario\n
+* Empuñadura trasera: Adhesivo punteado\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/m4a1_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
 
 
 

@@ -123,30 +123,58 @@
                             />
 
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="Rytec AMR:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-EXPLOSIVO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-Rytec AMR:\n
--EXPLOSIVO-\n
-+ Cañón: FTAC Seven Straight\n
-+ Láser: Láser táctico\n
-+ Culata: STOVL Tac-Wrap\n
-+ Munición: Cargador 25x59mm explosiva x5\n
-+ Empuñadura trasera: Adhesivo punteado\n
-\n
--COMBATE CERCANO-\n
-+ Cañón: FTAC 448mm Dictator\n
-+ Láser: Láser táctico\n
-+ Mira: Mira x3 VLK\n
-+ Culata: STOVL Tac-Wrap\n
-+ Empuñadura trasera: Adhesivo punteado"
-
+* Cañón: FTAC Seven Straight\n
+* Láser: Láser táctico\n
+* Culata: STOVL Tac-Wrap\n
+* Munición: Cargador 25x59mm explosiva x5\n
+* Empuñadura trasera: Adhesivo punteado\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-COMBATE CERCANO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Cañón: FTAC 448mm Dictator\n
+* Láser: Láser táctico\n
+* Mira: Mira x3 VLK\n
+* Culata: STOVL Tac-Wrap\n
+* Empuñadura trasera: Adhesivo punteado\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 

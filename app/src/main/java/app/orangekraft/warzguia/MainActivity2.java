@@ -28,6 +28,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         viewPager = findViewById(R.id.viewpager);
         tab1 = findViewById(R.id.tabmapas);
         tab2 = findViewById(R.id.tabarmas);
+        tab3 = findViewById(R.id.donate);
 
         pagerAdapter = new PagerController(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(pagerAdapter);
@@ -39,6 +40,9 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
                     pagerAdapter.notifyDataSetChanged();
                 }
                 if (tab.getPosition()==1){
+                    pagerAdapter.notifyDataSetChanged();
+                }
+                if (tab.getPosition() == 2) {
                     pagerAdapter.notifyDataSetChanged();
                 }
             }

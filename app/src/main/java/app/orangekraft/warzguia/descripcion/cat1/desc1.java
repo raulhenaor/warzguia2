@@ -30,6 +30,7 @@ public class desc1 extends AppCompatActivity {
         });
 
         mAdView = findViewById(R.id.adView);
+
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
         atras = (ImageView) findViewById(R.id.btnc1a1d1);

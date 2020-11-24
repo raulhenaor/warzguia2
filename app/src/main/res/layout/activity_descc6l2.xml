@@ -123,30 +123,58 @@
                             />
 
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="AX-50:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-MUERTE LEJANA-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-AX-50:\n
--TIRADOR PURO-\n
-+ Boca de Cañón: Silenciador monolitico\n
-+ Cañón: Cañón de fábrica de 81.3cm\n
-+ Láser: Láser táctico\n
-+ Culata: Singuard Arms asesino\n
-+ Empuñadura trasera: Adhesivo punteado\n
-\n
--MIRA RAPIDA-\n
-+ Boca de cañón: Silenciador ligero\n
-+ Cañón: Cañón de fábrica de 43.2cm\n
-+ Lasér: Láser táctico\n
-+ Culata: Singuard Arms asesino\n
-+ Empuñadura trasera: Adhesivo punteado"
-
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: Cañón de fábrica de 81.3cm\n
+* Láser: Láser táctico\n
+* Culata: Singuard Arms asesino\n
+* Empuñadura trasera: Adhesivo punteado\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-MIRA Y DISPARA-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de cañón: Silenciador ligero\n
+* Cañón: Cañón de fábrica de 43.2cm\n
+* Lasér: Láser táctico\n
+* Culata: Singuard Arms asesino\n
+* Empuñadura trasera: Adhesivo punteado\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 

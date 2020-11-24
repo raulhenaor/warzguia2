@@ -122,35 +122,79 @@
 
                             />
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="AK-47:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
 
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-BALANCEADA-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-AK-47:\n
--BALANCEADA-\n
-+ Boca de Cañón: Compensador\n
-+ Cañón: Spetsnaz de élite\n
-+ Mira: Hibrida integrada\n
-+ Acople: Empuñadura frontal de ranger\n
-+ Empuñadura trasera: Adhesivo granulado\n
-\n
--AGACHADO-\n
-+ Boca de cañón: Compensador\n
-+ Cañón: Rumano de 58.4cm\n
-+ Mira: Hibrida inclinada\n
-+ Culata: Culata de ametralladora ligera\n
-+ Empuñadura trasera: Adhesivo engomado"
-
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: Rumano de 58.4 cm\n
+* Mira: Mira holografica\n
+* Culata: Culata de armazon\n
+* Ventaja: Prestidigitación\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-ASALTO TOTAL-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de Cañón: Compensador\n
+* Cañón: Spetsnaz de élite\n
+* Mira: Hibrida integrada\n
+* Acople: Empuñadura frontal de ranger\n
+* Empuñadura trasera: Adhesivo granulado\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 
-
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/ak_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
 
 
 

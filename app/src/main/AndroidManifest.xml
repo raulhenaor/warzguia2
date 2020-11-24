@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Warzguia">
-        <activity android:name=".descripcion.cat6.descc6l3"></activity>
+        <activity android:name=".ui.semanal"></activity>
+        <activity android:name=".ui.noticias" />
+        <activity android:name=".ui.drop" />
+        <activity android:name=".descripcion.cat6.descc6l3" />
         <activity android:name=".descripcion.cat6.descc6l2" />
         <activity android:name=".descripcion.cat6.descc6l1" />
         <activity android:name=".descripcion.cat6.descc6l0" />

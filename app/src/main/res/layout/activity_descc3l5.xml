@@ -126,34 +126,58 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="JAK 12:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-GRAN DAÑO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-JAK 12:\n
--GRAN ALCANCE GRAN DAÑO-\n
-+ Boca de Cañón: Estrangulador\n
-+ Cañón: ZLR J2800\n
-+ Láser: Láser de 5mW\n
-+ Acople: Empuñadura frontal de mercenario
-+ Munición: Tambor de 20 balas\n
-
-\n
--FUEGO SILENCIOSO-\n
-+ Boca de cañón: Silenciador monolitico\n
-+ Cañón: ZLR J-3600 Torrent\n
-+ Láser: Láser de 5mW\n
-+ Munición: Munición aliento de dragón\n
-+ Empuñadura trasera: Adhesivo punteado"
-
+* Boca de Cañón: Estrangulador\n
+* Cañón: ZLR J2800\n
+* Láser: Láser de 5mW\n
+* Acople: Empuñadura frontal de mercenario
+* Munición: Tambor de 20 balas\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
-
-
-
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-FUEGO SILENCIOSO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de cañón: Silenciador monolitico\n
+* Cañón: ZLR J-3600 Torrent\n
+* Láser: Láser de 5mW\n
+* Munición: Munición aliento de dragón\n
+* Empuñadura trasera: Adhesivo punteado\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
 
 
 

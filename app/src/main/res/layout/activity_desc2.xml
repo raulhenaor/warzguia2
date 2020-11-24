@@ -123,33 +123,79 @@
                             />
 
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="FAL:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-FRANCOTIRADOR-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-FAL:\n
--FRANCOTIRADOR-\n
-+ Boca de Cañón: Compensador\n
-+ Cañón: XRK de tirador\n
-+ Mira: Hibrida inclinada\n
-+ Culata: FORGE TAC acechador\n
-+ Acople: Empuñadura frontal de operador\n
-\n
--DMR/AR-\n
-+ Cañón: XRK de tirador \n
-+ Culata: FORGE TAC acechador\n
-+ Acople: Empuñadura frontal de operador\n
-+ Empuñadura trasera: Adhesivo granulado\n
-+ Ventaja: Rafaga"
-
+* Boca de Cañón: Compensador\n
+* Cañón: XRK de tirador\n
+* Mira: Hibrida inclinada\n
+* Culata: FORGE TAC acechador\n
+* Acople: Empuñadura frontal de operador\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-DMR/AR-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de Cañón: Silenciador monolitico\n
+* Láser: Láser táctico\n
+* Mira: Mira holografica\n
+* Culata: Sin culata\n
+* Munición: Cargador de 30 balas\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/fal_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
 
 
 

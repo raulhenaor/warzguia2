@@ -127,27 +127,56 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="Ballesta:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-ATAQUE FRONTAL-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-Ballesta:\n
--ENFRENTAMIENTO FRONTAL-\n
-+ Arco: XRK Quill de 45kg\n
-+ Láser: Láser táctico\n
-+ Acople: Agarre de tempo FTAC\n
-+ Proyectil: Proyectil FTAC Fury de 50.8cm\n
-+ Ventaja: Prestidigitación\n
-\n
--TIRADOR-\n
-+ Cable: Cable de 28 hebras\n
-+ Arco: XRK Thunder de 91kg\n
-+ Mira: Mira XRK MidTrak 4.0x\n
-+ Culata: FORGE TAC Apex\n
-+ Acople: Agarre de precisión XRK"
-
+* Arco: XRK Quill de 45kg\n
+* Láser: Láser táctico\n
+* Acople: Agarre de tempo FTAC\n
+* Proyectil: Proyectil FTAC Fury de 50.8cm\n
+* Ventaja: Prestidigitación\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-TIRADOR-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Cable: Cable de 28 hebras\n
+* Arco: XRK Thunder de 91kg\n
+* Mira: Mira XRK MidTrak 4.0x\n
+* Culata: FORGE TAC Apex\n
+* Acople: Agarre de precisión XRK\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
 

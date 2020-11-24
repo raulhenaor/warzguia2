@@ -21,6 +21,7 @@ public class desc2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_desc2);
+
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
@@ -28,15 +29,17 @@ public class desc2 extends AppCompatActivity {
         });
 
         mAdView = findViewById(R.id.adView);
+
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
         atras = (ImageView) findViewById(R.id.btnc1a1d1);
 
         atras.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
+            public void onClick(View v) { onBackPressed();  }
         });
     }
+
+
 }

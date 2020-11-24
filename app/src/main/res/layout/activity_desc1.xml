@@ -123,35 +123,79 @@
                             />
 
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingHorizontal="10sp"
+                        android:text="Kilo 141:\n"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:typeface="normal" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingHorizontal="10sp"
+                        android:text="-AUTOMATICA-\n"
+                        android:textSize="25dp"
+                        android:textStyle="italic"
+                        android:typeface="normal" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
                         android:paddingHorizontal="10sp"
-
-                        android:paddingTop="10sp"
                         android:text="
-Kilo 141:\n
--AUTOMATICA-\n
-+ Boca de Cañón: Freno de boca\n
-+ Cañón: Singuard Arms de 50.3 cm de merodeador\n
-+ Mira: Hibrida plegable x4\n
-+ Culata: Singuard Arms de francotirador pro\n
-+ Munición: Tambores de 100 balas\n
-\n
--FUSIL SILENCIADO-\n
-+ Cañón: Singuard Arms susurro\n
-+ Láser: Láser de 5mW\n
-+ Culata: Culata para corta distancia FSS\n
-+ Acople: Empuñadura frontal de ranger\n
-+ Empuñadura trasera: Adhesivo punteado"
-
+* Boca de Cañón: Freno de boca\n
+* Cañón: Singuard Arms de 50.3 cm de merodeador\n
+* Mira: Hibrida plegable x4\n
+* Culata: Singuard Arms de francotirador pro\n
+* Munición: Tambores de 100 balas\n"
+                        android:textSize="20dp"
+                        android:typeface="normal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingHorizontal="10sp"
+                        android:text="-FUSIL SILENCIADO-\n"
+                        android:textSize="25dp"
+                        android:textStyle="italic"
+                        android:typeface="normal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingHorizontal="10sp"
+                        android:text="
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: Singuard Arms Pro de 50.8 cm\n
+* Mira: Mira VLK\n
+* Acople: Empuñadura frontal de comando\n
+* Munición: Cargador de 60 balas\n"
                         android:textSize="20dp"
                         android:typeface="normal" />
 
-
-
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitEnd"
+                        android:src="@drawable/kilo_recoil" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingHorizontal="10sp"
+                        android:paddingTop="10sp"
+                        android:text="Patron de retroceso\n"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:typeface="normal"
+                        android:textAlignment="center"/>
 
 
 

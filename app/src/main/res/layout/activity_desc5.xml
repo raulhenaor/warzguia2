@@ -126,29 +126,78 @@
 
                         <TextView
                             android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="Oden:\n"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:typeface="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-DESTRUCTOR-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-medium"
                             android:paddingHorizontal="10sp"
-
-                            android:paddingTop="10sp"
                             android:text="
-Oden:\n
--DESTRUCTOR DE ARMADURAS-\n
-+ Boca de Cañón: Silenciador coloso\n
-+ Láser: Láser táctico\n
-+ Mira: Mira x3 VLK\n
-+ Acople: Empuñadura frontal de mercenario\n
-+ Empuñadura trasera: Adhesivo punteado\n
-\n
--REDONDEADO-\n
-+ Boca de cañón: Silenciador coloso\n
-+ Mira: Mira reflex Viper\n
-+ Culata: Peine FTAC XL Elite\n
-+ Acople: Empuñadura frontal de mercenario\n
-+ Empuñadura trasera: Adhesivo punteado"
-
+* Boca de Cañón: Silenciador coloso\n
+* Láser: Láser táctico\n
+* Mira: Mira VLK x3\n
+* Acople: Empuñadura frontal de mercenario\n
+* Empuñadura trasera: Adhesivo punteado\n"
                             android:textSize="20dp"
                             android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="-BALANCEADO-\n"
+                            android:textSize="25dp"
+                            android:textStyle="italic"
+                            android:typeface="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:text="
+* Boca de Cañón: Silenciador monolitico\n
+* Cañón: Cañon de 420 mm\n
+* Láser: Láser táctico\n
+* Culata: Peine FTAC XL Elite\n
+* Empuñadura trasera: Adhesivo punteado\n"
+                            android:textSize="20dp"
+                            android:typeface="normal" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/oden_recoil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="10sp"
+                            android:paddingTop="10sp"
+                            android:text="Patron de retroceso\n"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:typeface="normal"
+                            android:textAlignment="center"/>
+
 
 
 
