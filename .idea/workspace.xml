@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b9b86bd-e4cc-4ce8-ae6e-7700ad68fd48" name="Default Changelist" comment="Intertitial Funcionando">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prueba_1__Se_agrego_main_activity2.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prueba_2__Todos_los_archivos.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/app/orangekraft/warzguia/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/Controlador/Armas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/Controlador/Donate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/Controlador/Mapas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/Controlador/PagerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/MainActivity2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat1/desc9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat2/descc2l0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat2/descc2l1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat2/descc2l2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat2/descc2l3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat2/descc2l4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat2/descc2l5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat2/descc2l6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat2/descc2l7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat2/descc2l8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat3/descc3l0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat3/descc3l1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat3/descc3l2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat3/descc3l3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat3/descc3l4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat3/descc3l5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat4/descc4l0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat4/descc4l1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat4/descc4l2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat4/descc4l3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat4/descc4l4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat4/descc4l5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat4/descc4l6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat5/descc5l0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat5/descc5l1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat5/descc5l2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat5/descc5l3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat5/descc5l4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat5/descc5l5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat6/descc6l0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat6/descc6l1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat6/descc6l2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/descripcion/cat6/descc6l3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/ui/AmetralladoraLigera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/ui/FusilAsalto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/ui/FusilPrecision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/ui/FusilTactico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/ui/SubFusil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/ui/drop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/ui/escopeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/ui/noticias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/app/orangekraft/warzguia/ui/semanal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/arma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/mapa_warzone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/a725.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ak_47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ak_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/amax_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ametralladora.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/an_94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/an_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/arrowb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/as_val.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/asval_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/aug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/aug_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ax_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bizon_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/boletin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bruen_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/carabine_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cr_56_amax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/crossbow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dragunov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/drop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dropt1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dropt2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ebr_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ebr_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/escopeta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fal_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fennec_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/finn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/finn_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fn_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fn_scar_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fr5_56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fr_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fusil_asalto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fusil_presicion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fusil_tactico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/grau_5_56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/grau_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/holger_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/holguer_26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notifications_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/iso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/iso_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jak_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kar98k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kar_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kilo_101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kilo_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/m13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/m13_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/m4a1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/m4a1_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/m91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/m91_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mapawz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mg34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mg_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mk2_carbine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mk9_bruen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/model_680.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/moneda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mp5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mp5_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mp7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mp7_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/oden.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/oden_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/origin_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/p90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/p90_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pkm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pkm_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pp19_bizon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/r9_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ram_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ram_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rytec_amr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sa87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sa_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sks_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spr_208.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spr_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/striker_45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/striker_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/subfusil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/uzi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/uzi_recoil.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/vlk_rogue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ametralladora_ligera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_desc9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc2l0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc2l1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc2l2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc2l3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc2l4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc2l5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc2l6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc2l7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc2l8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc3l0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc3l1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc3l2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc3l3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc3l4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc3l5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc4l0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc4l1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc4l2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc4l3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc4l4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc4l5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc4l6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc5l0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc5l1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc5l2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc5l3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc5l4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc5l5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc6l0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc6l1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc6l2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_descc6l3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_drop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_escopeta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fusil_asalto.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fusil_precision.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fusil_tactico.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_noticias.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_semanal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_subfusil.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_armas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_donate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mapas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/app/orangekraft/warzguia/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="D:\FirmasAndroid\warzoneguia.jks" />
+    <option name="KEY_ALIAS" value="raulhenaor" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="raul jesus henao roa &lt;raulhenaor@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jTXHdyyLNNviWtbDCALQmTIOx7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ApkExportedModule" value="warzguia.app" />
+    <property name="BundleExportedModule" value="warzguia.app" />
+    <property name="ExportApk.ApkPath" value="C:\Users\RAUL HENAO\AndroidStudioProjects\FlutterProjects\warzguia2\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/RAUL HENAO/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="D:/FirmasAndroid/warzoneguia.jks" />
+    <property name="multi-representation-previewC:/Users/RAUL HENAO/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-974978729">
+      <recent name="app.orangekraft.warzguia.Controlador" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RAUL HENAO\AndroidStudioProjects\FlutterProjects\warzguia2\app\src\main\res\drawable" />
+      <recent name="C:\Users\RAUL HENAO\AndroidStudioProjects\FlutterProjects\warzguia2\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="android.template.1811218723">
+      <recent name="app.orangekraft.warzguia.descripcion.cat6" />
+      <recent name="app.orangekraft.warzguia.descripcion.cat5" />
+      <recent name="app.orangekraft.warzguia.descripcion" />
+      <recent name="app.orangekraft.warzguia.descripcion.cat4" />
+      <recent name="app.orangekraft.warzguia.descripcion.cat3" />
+    </key>
+    <key name="android.template.350664032">
+      <recent name="app.orangekraft.warzguia.ui" />
+      <recent name="app.orangekraft.warzguia" />
+    </key>
+    <key name="android.template.1754214317">
+      <recent name="app.orangekraft.warzguia.descripcion.cat1" />
+    </key>
+    <key name="android.template.-1992743662">
+      <recent name="app.orangekraft.warzguia" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RAUL HENAO\AndroidStudioProjects\FlutterProjects\warzguia2\app\src\main\res\drawable" />
+      <recent name="C:\Users\RAUL HENAO\AndroidStudioProjects\FlutterProjects\warzguia2\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="android.template.1325303526">
+      <recent name="app.orangekraft.warzguia" />
+    </key>
+    <key name="android.template.1580272262">
+      <recent name="app.orangekraft.warzguia.descripcion.cat2" />
+      <recent name="app.orangekraft.warzguia.descripcion.cat1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="warzguia.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b9b86bd-e4cc-4ce8-ae6e-7700ad68fd48" name="Default Changelist" comment="" />
+      <created>1603828968795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603828968795</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Creado de 0">
+      <created>1603829227175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603829227175</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creado de 0">
+      <created>1603831188119</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603831188119</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Prueba 1: Se agrego main activity2">
+      <created>1603831561558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603831561558</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Prueba 1: Se agrego main activity2">
+      <created>1603831761927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603831761927</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Prueba 2: Todos los archivos">
+      <created>1603831852954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603831852954</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Prueba 2: Todos los archivos">
+      <created>1603832841123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603832841123</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Prueba 2: Todos los archivos">
+      <created>1603832848610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603832848610</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Firebase Done">
+      <created>1603832889675</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603832889675</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Firebase Done 2">
+      <created>1603833099997</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603833099997</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Se agrego código de admob al manifest">
+      <created>1603835263152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603835263152</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fragment 1, Fragment 2, Menu Principal, Home con tabs">
+      <created>1603849639515</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603849639516</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Mejoras fragment_armas.xml">
+      <created>1603889765728</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603889765728</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Categorias lista&#10;Iniciando descripcion 1">
+      <created>1603930888842</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603930888843</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Descripcion rdy">
+      <created>1603986611120</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603986611120</updated>
+    </task>
+    <task id="LOCAL-00015" summary="FusilAsalto OK&#10;Descripcion1 OK &#10;Funcionan links bien">
+      <created>1604004449482</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604004449483</updated>
+    </task>
+    <task id="LOCAL-00016" summary="FusilAsalto OK&#10;Descripcion1 OK &#10;Funcionan links bien">
+      <created>1604005073967</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604005073967</updated>
+    </task>
+    <task id="LOCAL-00017" summary="cat2 ok">
+      <created>1604060854908</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604060854908</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Escopetas OK">
+      <created>1604070760689</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604070760689</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Cat4: AmetralladoraLigera">
+      <created>1604072671229</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604072671229</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Cat4: AmetralladoraLigera">
+      <created>1604072723628</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604072723628</updated>
+    </task>
+    <task id="LOCAL-00021" summary="FusilTactico Listo OK&#10;Solucionado Links Cat 4 escopeta.java">
+      <created>1604074757733</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604074757733</updated>
+    </task>
+    <task id="LOCAL-00022" summary="FusilPrecision ok Listo">
+      <created>1604076346147</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604076346147</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Test AdMob">
+      <created>1604234423978</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1604234423978</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Intertitial Funcionando">
+      <created>1604248842420</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604248842420</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Intertitial Funcionando">
+      <created>1604248906099</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1604248906099</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Intertitial Funcionando">
+      <created>1604266415720</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604266415720</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Creado de 0" />
+    <MESSAGE value="Prueba 1: Se agrego main activity2" />
+    <MESSAGE value="Prueba 2: Todos los archivos" />
+    <MESSAGE value="Firebase Done" />
+    <MESSAGE value="Firebase Done 2" />
+    <MESSAGE value="Se agrego código de admob al manifest" />
+    <MESSAGE value="Fragment 1, Fragment 2, Menu Principal, Home con tabs" />
+    <MESSAGE value="Mejoras fragment_armas.xml" />
+    <MESSAGE value="Categorias lista&#10;Iniciando descripcion 1" />
+    <MESSAGE value="Descripcion rdy" />
+    <MESSAGE value="FusilAsalto OK&#10;Descripcion1 OK &#10;Funcionan links bien" />
+    <MESSAGE value="cat2 ok" />
+    <MESSAGE value="Escopetas OK" />
+    <MESSAGE value="Cat4: AmetralladoraLigera" />
+    <MESSAGE value="FusilTactico Listo OK&#10;Solucionado Links Cat 4 escopeta.java" />
+    <MESSAGE value="FusilPrecision ok Listo" />
+    <MESSAGE value="Test AdMob" />
+    <MESSAGE value="Intertitial Funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intertitial Funcionando" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2419" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1604078782398">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2419" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1604078782398" />
+    <state x="2494" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1604072352482">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2494" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1604072352482" />
+    <state x="2419" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604269980601">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2419" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1604269980601" />
+    <state x="2269" y="167" key="AndroidCreateResourceDirectoryDialog" timestamp="1603891530691">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2269" y="167" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1603891530691" />
+    <state x="2269" y="167" key="AndroidCreateResourceFileDialog" timestamp="1603915898664">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2269" y="167" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1603915898664" />
+    <state x="2269" y="117" key="AndroidThemeDialog" timestamp="1603837732810">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2269" y="117" key="AndroidThemeDialog/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1603837732810" />
+    <state x="2341" y="0" key="CommitChangelistDialog2" timestamp="1606235144850">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="83" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1604248905043" />
+    <state x="2341" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606235144850" />
+    <state x="2013" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1606234749975">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2013" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606234749975" />
+    <state x="2512" y="203" key="FileChooserDialogImpl" timestamp="1604274096796">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="740" y="256" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1603829291437" />
+    <state x="2512" y="203" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1604274096795" />
+    <state width="1491" height="162" key="GridCell.Tab.0.bottom" timestamp="1606234014477">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="162" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606234014477" />
+    <state width="1491" height="162" key="GridCell.Tab.0.center" timestamp="1606234014476">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="162" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606234014476" />
+    <state width="1491" height="162" key="GridCell.Tab.0.left" timestamp="1606234014476">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="162" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606234014476" />
+    <state width="1491" height="162" key="GridCell.Tab.0.right" timestamp="1606234014477">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="162" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606234014477" />
+    <state width="498" height="447" key="SwitcherDM" timestamp="1604069907641">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="447" key="SwitcherDM/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1604069907641" />
+    <state x="2362" y="196" key="Vcs.Push.Dialog.v2" timestamp="1604266418287">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1604248907955" />
+    <state x="2362" y="196" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1604266418287" />
+    <state x="2505" y="190" key="chooseDestDirectoryDialog" timestamp="1603917879197">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2505" y="190" key="chooseDestDirectoryDialog/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1603917879197" />
+    <state x="2535" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606235861198">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="769" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1603831658993" />
+    <state x="2535" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606235861198" />
+    <state x="2394" y="11" width="587" height="801" key="find.popup" timestamp="1606234555528">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2394" y="11" width="587" height="801" key="find.popup/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606234555528" />
+    <state x="2398" y="200" key="git4idea.merge.GitPullDialog" timestamp="1606235738111">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2398" y="200" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606235738111" />
+    <state x="696" y="376" key="git4idea.rebase.GitRebaseDialog" timestamp="1603829344683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="696" y="376" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1603829344683" />
+    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603906815204">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1603906815204" />
+  </component>
+</project>
